@@ -1,4 +1,4 @@
-package com.example.part1;
+package part1;
 
 public class TaxManager {
     private static final int MAX = 100;

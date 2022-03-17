@@ -1,4 +1,4 @@
-package com.example.part1;
+package part1;
 
 public class FreeLand extends Taxpayer{
 
