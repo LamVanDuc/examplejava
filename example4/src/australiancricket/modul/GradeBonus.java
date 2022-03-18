@@ -1,6 +1,6 @@
 package australiancricket.modul;
 
 public interface GradeBonus {
-    public float GradeBonusPercent = 5.5f;
-    public double calculateGradeBonus();
+    public double GradeBonusPercent = 5.5;
+     public double calculateGradeBonus(double income);
 }

@@ -2,26 +2,25 @@ package australiancricket.modul;
 
 public class BookingIncome extends Booking implements Tax{
 
-    private double salary;
-    private double incom;
-     Booking book = new Booking();
-     Booking.Player player = new Player();
+    private double salary = 0;
+    private String name;
+    private double incom = 0;
+    private double tax  = 0;
 
     public BookingIncome(){
     }
     public BookingIncome(String name,double salary){
-
+        this.name = name;
         this.salary = salary;
-        this.player.displayDetails(name);
 
     }
 
-    @Override
-    public double calculateTax(double salary)
-        {
-            double calculateTax  = (salary * taxPercent) /100;
-            return calculateTax;
-        }
+    public String getName(){
+        return this.name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
 
     public double getSalary() {
         return salary;
@@ -35,23 +34,24 @@ public class BookingIncome extends Booking implements Tax{
         return incom;
     }
 
-    public void setIncom(double incom) {
-        this.incom = incom;
+
+    @Override
+    public double calculateTax(double salary)
+    {
+        tax = (salary / 100) *10;
+        incom = salary - tax;
+        return tax;
     }
 
-    public Booking getBook() {
-        return book;
-    }
+    @Override
+    public void displayDetails(){
+//        calculateTax(getSalary());
 
-    public void setBook(Booking book) {
-        this.book = book;
-    }
 
-    public Player getPlayer() {
-        return player;
-    }
+        System.out.println("Name player: "+getName());
+        System.out.println("     Salary: "+getSalary());
+        System.out.println("        Tax: "+ tax);
+        System.out.println("     income: " + incom);
 
-    public void setPlayer(Player player) {
-        this.player = player;
     }
 }

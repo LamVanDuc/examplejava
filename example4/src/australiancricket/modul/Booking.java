@@ -1,14 +1,27 @@
 package australiancricket.modul;
 
-public  class Booking {
+public abstract class Booking {
 
-    public class Player{
+
+    public static class Player{
+        //
         public String namePlayer;
+        //constructor
+        public Player(){}
 
-        public void displayDetails(String name){
+        public Player(String namePlayer){
+            this.namePlayer = namePlayer;
+        }
+
+        //setter and getter
+        public void setName(String name){
             this.namePlayer = name;
+        }public String getName(){
+            return this.namePlayer;
         }
     }
+    // display method
+    public abstract void displayDetails();
 }
 
 
