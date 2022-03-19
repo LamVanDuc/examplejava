@@ -43,7 +43,7 @@ public class EmployeeSystem {
         operation();
     }
     public static void employeeList(){
-        System.out.println(map.toString());
+        System.out.println(map.keySet() +" : "+ map.values());
     }
 
     public static void operation(){
