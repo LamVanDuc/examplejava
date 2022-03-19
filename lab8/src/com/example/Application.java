@@ -60,9 +60,9 @@ public class Application {
         double mark;
         System.out.println("Enter student ID: ");  id = input.nextInt();
 
-        System.out.println("Enter first name: "); firstName = input.nextLine();
+        System.out.println("Enter first name: "); firstName = input.next();
 
-        System.out.println("Enter last name: "); lastName = input.nextLine();
+        System.out.println("Enter last name: "); lastName = input.next();
 
         System.out.println("Enter the mark");  mark = input.nextDouble();
 
