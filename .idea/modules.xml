@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmployeeMS/EmployeeMS.iml" filepath="$PROJECT_DIR$/EmployeeMS/EmployeeMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileManager/FileManager.iml" filepath="$PROJECT_DIR$/FileManager/FileManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkLogin/checkLogin.iml" filepath="$PROJECT_DIR$/checkLogin/checkLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/example4/example4.iml" filepath="$PROJECT_DIR$/example4/example4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GetDataJsonAndGson/getDataJsonAndGson.iml" filepath="$PROJECT_DIR$/GetDataJsonAndGson/getDataJsonAndGson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java2.iml" filepath="$PROJECT_DIR$/.idea/java2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonandgson/jsonandgson.iml" filepath="$PROJECT_DIR$/jsonandgson/jsonandgson.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab8/lab8.iml" filepath="$PROJECT_DIR$/lab8/lab8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab_authentication/lab_authentication.iml" filepath="$PROJECT_DIR$/lab_authentication/lab_authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/onlinevarsity/onlinevarsity.iml" filepath="$PROJECT_DIR$/onlinevarsity/onlinevarsity.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2/part2.iml" filepath="$PROJECT_DIR$/part2/part2.iml" />
     </modules>

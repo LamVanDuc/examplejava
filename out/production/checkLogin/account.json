@@ -1,0 +1,20 @@
+[
+  {
+    "id":23435,
+    "user_name":"lamduc",
+    "pass_word": "0123456789",
+    "email" : "duclvth2108005@fpt.edu.vn"
+  },
+  {
+    "id":342235,
+    "user_name":"hoangvan",
+    "pass_word": "9876543210",
+    "email" : "anhhvth2105002@fpt.edu.vn"
+  },
+  {
+    "id":22342334524,
+    "user_name":"manhluan@1201",
+    "pass_word": "123456789aaa",
+    "email" : "adgadgadgagdag@fpt.edu.vn"
+  }
+]

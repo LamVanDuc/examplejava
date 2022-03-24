@@ -1,10 +1,7 @@
 package com.example.model;
 
 import java.awt.geom.Arc2D;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 import com.example.entity.Student;
 
@@ -23,7 +20,7 @@ public class StudentList {
 
         for (Student s : list){
             String fullName = new String(s.getFirstName() + " "+ s.getLastName().toLowerCase());
-            if (fullName.matches("(.*0)"+ name.toLowerCase() + "(.*)")){
+            if (fullName.matches("(.*)"+ name.toLowerCase() + "(.*)")){
                 matches.add(s);
                 found = true;
             }
@@ -50,12 +47,13 @@ public class StudentList {
 
     public void remove(int id){
         boolean found =false ;
+
         for (Student s : list){
             if (s.getId() == id){
                 int choice;
                 System.out.println("Are you sure deleting this student? ( 1. yes | 2.No)");
                 choice = new Scanner(System.in).nextInt();
-                if (choice == 1 ){
+                if (choice == 1){
 
                     list.remove(s);
                     found = true;
@@ -64,6 +62,7 @@ public class StudentList {
             if (found==false){
                 System.out.println("Can not find student with id" + id);
             }
+
         }
     }
 
@@ -74,8 +73,11 @@ public class StudentList {
         });
     }
     public void showList(){
+        if (list.size() == 0){
+            System.out.println("Not found Student");
+        }else{
         for (Student s : list){
-            s.printInfo();
+            s.printInfo();}
         }
 
     }
