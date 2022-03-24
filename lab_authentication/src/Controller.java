@@ -88,7 +88,8 @@ public class Controller {
                 while (!check){
                     try{
                         System.out.println("Nhập mật khẩu mới : ");
-                        newPassword = Validate.validatePassword(scanner.nextLine());
+                        newPassword = Validate.validatePassword(scanner.next());
+                        check = true;
                     }catch (RuntimeException e){
                         System.out.println(e);
                     }
@@ -170,6 +171,7 @@ public class Controller {
         }
     }
 
+
     public void forgotPassword(){
         System.out.println("vui long nhap email cua ban: ");
         String email = scanner.nextLine();
@@ -209,11 +211,11 @@ public class Controller {
             try {
                 id = users.size() + 1;
                 System.out.println("Nhap username: ");
-                newUsername = scanner.nextLine();
+                newUsername = scanner.next();
                 System.out.println("Nhap email: ");
-                newEmail = Validate.validateEmail(scanner.nextLine());
+                newEmail = Validate.validateEmail(scanner.next());
                 System.out.println("Nhap password: ");
-                newPassword = Validate.validatePassword(scanner.nextLine());
+                newPassword = Validate.validatePassword(scanner.next());
                 for (int i =0 ; i< users.size() ; i++){
                     if (newUsername.equals(users.get(i).getUsername())) throw new RuntimeException("User da ton tai");
                     if (newEmail.equals(users.get(i).getEmail())) throw new RuntimeException("Email da ton tai");
