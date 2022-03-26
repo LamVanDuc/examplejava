@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cmnd" : "123456789",
+    "name": "Lâm văn đức",
+    "username": "lamduc",
+    "password": "12345678aA@",
+    "balance": 150000,
+    "stk": "646545165"
+  },
+  {
+    "id": 2,
+    "cmnd" : "12564258974",
+    "name": "Hoàng Thị Vân Anh",
+    "username": "hoangvan",
+    "password": "12345678aA@",
+    "balance": 0,
+    "stk": "4545481211"
+  },{
+    "id": 4,
+    "cmnd" : "1234569874",
+    "name": "TÀI KHOẢN 2",
+    "username": "taikhoan2",
+    "password": "12345678aA@",
+    "balance": 0,
+    "stk": "5464654845"
+  },{
+    "id": 32,
+    "cmnd" : "1234585142",
+    "name": "TÀI KHOẢN 3",
+    "username": "taikhoan3",
+    "password": "12345678aA@",
+    "balance": 0,
+    "stk": "23132154654"
+  },{
+    "id": 13,
+    "cmnd" : "125489542",
+    "name": "TÀI KHOẢN 4",
+    "username": "taikhoan4",
+    "password": "12345678aA@",
+    "balance": 0,
+    "stk": "98754623121"
+  },{
+    "id": 24,
+    "cmnd" : "1258746985",
+    "name": "TÀI KHOẢN 5",
+    "username": "taikhoan5",
+    "password": "12345678aA@",
+    "balance": 0,
+    "stk": "654654325489"
+  }
+]
