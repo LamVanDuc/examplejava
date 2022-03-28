@@ -29,7 +29,7 @@ public class Controller {
                     break;
         }
         }catch (InputMismatchException e){
-            System.out.println("Lựa chọn không hợp lệ !");
+            System.out.println("Cú pháp không hợp lệ !");
         }
     }
 

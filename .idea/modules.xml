@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Banking/Banking.iml" filepath="$PROJECT_DIR$/Banking/Banking.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmployeeMS/EmployeeMS.iml" filepath="$PROJECT_DIR$/EmployeeMS/EmployeeMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileManager/FileManager.iml" filepath="$PROJECT_DIR$/FileManager/FileManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab9/Lab9.iml" filepath="$PROJECT_DIR$/Lab9/Lab9.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkLogin/checkLogin.iml" filepath="$PROJECT_DIR$/checkLogin/checkLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/example4/example4.iml" filepath="$PROJECT_DIR$/example4/example4.iml" />
       <module fileurl="file://$PROJECT_DIR$/GetDataJsonAndGson/getDataJsonAndGson.iml" filepath="$PROJECT_DIR$/GetDataJsonAndGson/getDataJsonAndGson.iml" />

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "ke trom mat trang",
+    "category": "phim my|tre em",
+    "actor": "steven carell|",
+    "language": "English | Finish",
+    "publishingYear": 2022,
+    "publishCompany": "universalPictures",
+    "time": 95
+  },
+  {
+  "id": 5,
+  "title": "doremon",
+  "category": "phim gia dinh|phim gia dinh|tre em",
+  "actor": "steven carell|",
+  "language": "nhật bản | finish",
+  "publishingYear": 2022,
+  "publishCompany": "universalPictures",
+  "time": 95
+},
+  {
+  "id": 2,
+  "title": "super girl",
+  "category": "phim my",
+  "actor": "steven carell|",
+  "language": "English | Finish",
+  "publishingYear": 2022,
+  "publishCompany": "universalPictures",
+  "time": 95
+},
+  {
+  "id": 3,
+  "title": "nguoi nhen tro ve",
+  "category": "phim my|phim gia dinh",
+  "actor": "steven carell|",
+  "language": "English | Finish",
+  "publishingYear": 2022,
+  "publishCompany": "universalPictures",
+  "time": 95
+},
+  {
+  "id": 4,
+  "title": "ke cap mat trang",
+  "category": "phim gia dinh|phim my|tre em",
+  "actor": "steven carell|",
+  "language": "vietnamese | vinish",
+  "publishingYear": 2022,
+  "publishCompany": "universalPictures",
+  "time": 95
+}
+]
