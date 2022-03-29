@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/lab_authentication/lab_authentication.iml" filepath="$PROJECT_DIR$/lab_authentication/lab_authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/onlinevarsity/onlinevarsity.iml" filepath="$PROJECT_DIR$/onlinevarsity/onlinevarsity.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2/part2.iml" filepath="$PROJECT_DIR$/part2/part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review/review.iml" filepath="$PROJECT_DIR$/review/review.iml" />
     </modules>
   </component>
 </project>
