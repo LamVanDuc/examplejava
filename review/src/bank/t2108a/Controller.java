@@ -1,7 +1,6 @@
 package bank.t2108a;
 
 import java.text.DecimalFormat;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -38,19 +37,22 @@ public class Controller {
     }
 
     public void acctionTransfer(){
+        String beneficiaryAccount;
+        long money;
+        String content;
         // thuc hien cac cong viec nhu nhap so tai khoarn thu huong, so tien , mo ta tai day
         try{
             boolean check = true;
             while (check){
                 System.out.println("vui long nhap so tai khoan: ");
-                String beneficiaryAccount = ValidateAccount.validateNumber(inputI.next());
+                beneficiaryAccount = ValidateAccount.validateNumber(inputI.next());
                 System.out.println("vui long nhap so tien: ");
-                long money = inputI.nextLong();
+                money = inputI.nextLong();
                 tranfer(money);
                 if (status == true){
                     System.out.println("noi dung chuyen khoan: ");
-                    String description = inputI.next();
-                    listHistory.add(new TransactionHistory(description , beneficiaryAccount , money));
+                    content = inputI.next();
+                    listHistory.add(new TransactionHistory(content , beneficiaryAccount , money));
                     System.out.println("chuyen khoan thanh cong");
                 }
                 check = false;

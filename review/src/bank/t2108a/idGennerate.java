@@ -9,7 +9,7 @@ public class idGennerate {
 
     public static Long getNewID(){
         Long result;
-        lock.lock();;  // khoa bien id lai chi cho duy nhat mot thread duoc truy xuat
+        lock.lock(); // khai bien id lai chi cho duy nhat mot thread duoc truy xuat
         // tranh tinh trang DATA RACING;
 
         try {

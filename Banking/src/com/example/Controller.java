@@ -296,6 +296,8 @@ public class Controller {
                                     if (money <=20000000){
                                     users.get(i).setBalance(users.get(i).getBalance() - money);
                                     users.get(j).setBalance(users.get(j).getBalance()+money);
+                                    String a = input.next();
+                                    System.out.println(a);
                                     System.out.println("Chuyển thành công !");
                                     System.out.println("--------------------------------------------");
 
